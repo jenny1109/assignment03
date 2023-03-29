@@ -1,0 +1,65 @@
+@media (min-width: 992px) {
+  /* container Layout */
+  .pj-container {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-template-rows: 55% 45%;
+    margin: 5px;
+  }
+  .timeline {
+    grid-row: 1 / span2;
+    grid-column: 3/4;
+  }
+  .team {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .scopes {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .scopes h2 {
+    grid-column: 1/-1;
+    height: auto;
+  }
+  /* GOALS */
+  .goal1,
+  .goal2,
+  .goal3 {
+    align-items: center;
+    display: flex;
+  }
+  .goals i {
+    text-align: center;
+  }
+  .goal-detail {
+    margin-right: 0;
+  }
+  /* TEAM */
+  .mem1,
+  .mem2,
+  .mem3,
+  .mem4 {
+    align-items: center;
+    display: flex;
+  }
+  /* PRIMARY */
+  .primary div {
+    display: flex;
+    align-items: center;
+  }
+  .primary i {
+    margin-top: 10px;
+    text-align: center;
+  }
+  /* TIMELINE */
+  .timeline .row {
+    align-items: center;
+    line-height: 1.5;
+    display: flex;
+  }
+  .num {
+    text-align: center;
+    margin: 5px;
+  }
+}

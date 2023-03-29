@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* BASIC STYLE */
+h3 {
+  font-size: 20px;
+}
+
+@media (min-width: 90px) {
+  /* Border */
+  .pj-container {
+    border: solid 10px rgb(58, 58, 252);
+  }
+  section {
+    border: solid 10px rgb(58, 58, 252);
+  }
+  h2 {
+    border-bottom: solid 0.5px rgb(158, 158, 158);
+    padding-bottom: 10px;
+  }
+  /* CONTAINER LAYOUT */
+  .goals,
+  .scopes,
+  .team,
+  .primary,
+  .timeline {
+    padding: 20px;
+  }
+  .goal1,
+  .goal2,
+  .goal3 {
+    border-bottom: solid 0.2px rgb(198, 198, 198);
+  }
+  /* GOALS */
+  .goal1,
+  .goal2,
+  .goal3 {
+    display: block;
+    padding-top: 10px;
+  }
+  .goals i {
+    text-align: center;
+  }
+  /* TEAM */
+  .mem1,
+  .mem2,
+  .mem3,
+  .mem4 {
+    display: block;
+  }
+  .team i {
+    text-align: center;
+  }
+  /* PRIMARY */
+  .primary div {
+    display: block;
+  }
+  .primary i {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  /* TIMELINE */
+
+  .timeline .row {
+    margin-top: 10px;
+    display: block;
+  }
+  .num {
+    font-size: 20px;
+    color: white;
+    border: solid rgb(85, 0, 128) 2px;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(154, 135, 231);
+    width: auto;
+    margin-bottom: 0;
+    margin-left: 10px;
+  }
+  .timeline .row .col-lg-10 {
+    border-bottom: dashed rgb(87, 87, 255) 0.5px;
+  }
+}

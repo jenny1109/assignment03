@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+}
+@media (min-width: 768px) {
+  /*Nav bar*/
+  .info,
+  .ly-lich,
+  .pj,
+  .cert,
+  .nav1,
+  .nav2 {
+    display: inline-block;
+  }
+  nav {
+    position: relative;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+    margin: auto;
+  }
+  .info,
+  .ly-lich,
+  .pj,
+  .cert {
+    border-left: solid #e2dfdf 0.5px;
+    padding: 20px 30px;
+  }
+  .ly-lich,
+  .cert {
+    border-right: solid #e2dfdf 0.5px;
+  }
+  .avatar {
+    display: none;
+  }
+  /* TARGET & INFO */
+  .target,
+  .personal-info {
+    padding: 0 40px;
+  }
+  /* JOB-INFO */
+  .exp,
+  .study,
+  .act,
+  .hobby,
+  .language,
+  .skill {
+    margin: 10px 20px;
+    width: 37%;
+  }
+  .job-info {
+    justify-content: center;
+    margin: 20px auto;
+  }
+  /* CERTIFICATE */
+  .cert-img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #certificate .container {
+    padding: 0;
+  }
+  .cert-container {
+    gap: 20px;
+    height: auto;
+  }
+  .cert1,
+  .cert2 {
+    margin-bottom: 20px;
+  }
+  .cert-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 49% 51%;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    row-gap: 20px;
+  }
+  .cert-title {
+    grid-column: 1/3;
+    padding-top: 60px;
+    padding-bottom: 0;
+  }
+  .cert2 {
+    border-left: solid rgb(244, 165, 18) 0.5px;
+    padding-left: 3%;
+  }
+  .cert3 {
+    grid-column: 1/-1;
+    border-top: solid rgb(244, 165, 18) 0.5px;
+    padding-top: 45px;
+  }
+  .cert3 img {
+    width: 48%;
+  }
+  .cert1,
+  .cert2,
+  .cert3 {
+    border-bottom: none;
+  }
+  /* PROJECT */
+  .pj-container {
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    grid-template-rows: 5% 95%;
+    justify-content: center;
+    column-gap: 30px;
+    margin-top: 60px;
+    height: auto;
+  }
+  .pj-cointainer {
+    align-items: stretch;
+  }
+
+  .pj-title {
+    grid-column: 1/-1;
+  }
+  .year,
+  .icon-user-1,
+  .funix,
+  .icon-lamp,
+  .dev {
+    display: inline-block;
+  }
+  .cv span,
+  .pet span,
+  .news span {
+    display: inline-block;
+  }
+
+  .year {
+    display: inline-block;
+    padding: 0 10px;
+  }
+
+  /* FOOTER */
+  .footer span {
+    display: initial;
+  }
+}

@@ -1,0 +1,313 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  line-height: 20px;
+  font-size: 13px !important;
+}
+h1 {
+  font-size: 25px !important;
+}
+h3 {
+  font-size: 18px !important;
+  margin-bottom: 0 !important;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  width: 100%;
+  margin: auto;
+
+  padding: 30px 50px;
+}
+
+#nav-bar {
+  text-align: center;
+}
+/*banner*/
+.banner {
+  position: relative;
+}
+.bg-img {
+  width: 100%;
+}
+#banner {
+  position: absolute;
+  top: 20px;
+  left: 35%;
+  text-align: center;
+  color: white;
+}
+/* AVATAR */
+
+/*navigation bar*/
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+/* NAV-SHADOW */
+.nav-bar {
+  position: relative;
+  box-shadow: 0 1px 0 0 #b8b8b8;
+  z-index: 1;
+}
+a {
+  color: #636363 !important;
+}
+/* icon */
+i {
+  color: #3494fc;
+}
+/*MỤC TIÊU NGHỀ NGHIỆP & THÔNG TIN CÁ NHÂN*/
+
+ul {
+  list-style-type: none;
+}
+#about,
+.target-info {
+  height: auto;
+  width: 100%;
+}
+#about h1 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.p-info {
+  margin-bottom: 10px;
+}
+
+.personal-icon {
+  margin: 0 0 40px 35px;
+}
+/* JOB-INFO */
+
+ul {
+  height: auto;
+}
+.rd {
+  grid-row: 2/3;
+  grid-column: 1/-1;
+}
+.nd-el {
+  margin-top: 30px;
+}
+.m5,
+.now {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.now {
+  color: white;
+  text-align: center;
+  width: 60px;
+  background-color: #199cdb;
+  border: solid #199cdb 0.2px;
+  border-radius: 20%;
+}
+.date {
+  margin-bottom: 5px;
+}
+p {
+  margin-bottom: 0 !important;
+}
+
+/*JOB-INFO'S ICON AND BULLET*/
+.big-ic i {
+  color: #9b9b9b;
+  font-size: 35px;
+  grid-column: 2/3;
+}
+.job-info li::before {
+  content: "\2022";
+  color: #3494fc;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.5em;
+  width: 1em;
+  margin-left: -2em;
+  position: absolute;
+}
+.hobby-li li::before {
+  content: "";
+}
+.hobby-li li {
+  margin-left: 3px;
+}
+.hobby-li i {
+  border: solid #3494fc 1px;
+  font-size: 13px;
+  border-radius: 100px;
+  padding: 15px;
+}
+.ic-strategy {
+  margin: 0 10px;
+}
+.hobby-li {
+  display: flex;
+  gap: 10px;
+  padding-left: 0;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+/*SCORE DASH*/
+.blue {
+  display: inline-block;
+  background-color: #199cdb;
+  width: 40px;
+  height: 2px;
+}
+.gray {
+  display: inline-block;
+  background-color: #9f9f9f;
+  width: 40px;
+  height: 2px;
+}
+
+/* ~PROJECT~ */
+.pj-img {
+  width: 330px;
+}
+
+.icon-user-1,
+.icon-lamp {
+  font-size: 17px;
+  color: #9b9b9b;
+}
+.year {
+  background-color: #199cdb;
+  border-radius: 20px;
+  padding: 0 15px;
+  color: white;
+}
+td {
+  width: 200px;
+  vertical-align: top;
+  text-align: left;
+  padding: 5px;
+}
+.pj-container h3 {
+  padding: 10px;
+  border: solid #cdcdcd 0.5px;
+  color: #636363;
+}
+.details {
+  border-left: solid #cdcdcd 0.5px;
+  border-right: solid #cdcdcd 0.5px;
+  padding: 10px;
+}
+.funix,
+.dev {
+  color: #636363;
+}
+.small {
+  width: 100px;
+}
+/* TABLE */
+table {
+  border: solid #cdcdcd 0.5px;
+  border-collapse: collapse;
+  height: 200px;
+  width: 330px;
+  color: #636363;
+}
+tr {
+  border-bottom: solid #cdcdcd 0.5px;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  font-size: 20px;
+}
+li i {
+  font-size: 200%;
+  position: absolute;
+  left: -50px;
+  top: -11px;
+}
+li {
+  vertical-align: top;
+  color: #636363;
+  position: relative;
+}
+/* HIDE INFOR */
+.hide {
+  display: none;
+}
+/* INPUT */
+#email {
+  width: 100%;
+  border-radius: 5px;
+  border: solid rgba(154, 154, 154, 0.518) 0.5px;
+
+  height: 25px;
+  margin-bottom: 5px;
+}
+#email:hover {
+  box-shadow: 0 0 5pt 0.5pt rgb(81, 152, 211);
+}
+.submitBtn {
+  background-color: #3880cc;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  width: auto;
+  margin-bottom: 20px;
+}
+.submitBtn:active {
+  background-color: #042c57;
+  box-shadow: 0 0 2px 2px #d3d3d3;
+}
+.form p {
+  color: #9b9b9b;
+}
+/* HIDE JOB-INFO */
+.more {
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 30px;
+  background-color: rgb(240, 240, 160);
+  border: none;
+  visibility: hidden;
+  box-shadow: -3px -5px 4pt 2pt rgb(220, 220, 220);
+  overflow: auto;
+}
+.exp:hover .more {
+  visibility: visible;
+}
+.act:hover .more {
+  visibility: visible;
+}
+.study:hover .more {
+  visibility: visible;
+}
+.hobby:hover .more {
+  visibility: visible;
+}
+.language:hover .more {
+  visibility: visible;
+}
+.skill:hover .more {
+  visibility: visible;
+}
+.more:active {
+  background-color: rgb(200, 200, 117);
+}
+/* PROJECT-LINK */
+#project h3:hover {
+  color: rgb(33, 26, 85);
+  font-weight: bold;
+}
